@@ -24,7 +24,7 @@ const user = {
 // .catch(error => console.log(error));
 
 
-//Delete a user
+// //Delete a user
 http.delete('https://jsonplaceholder.typicode.com/users/2')
 .then(response => console.log(response))
 .catch(error => console.log(error));
